@@ -17,6 +17,21 @@ pip install -e ".[dev]"
 
 This installs all development tools including `podman-compose`, `ruff`, and `pytest`.
 
+### Environment Variables
+
+The next sections specify required environment variables. The
+[envrc.example](./envrc.example) file can be copied to `.envrc` and
+[direnv](https://direnv.net/) can automatically apply the file.
+
+> [!CAUTION]
+> Never commit `.envrc` to git. It contains secrets.
+
+```bash
+cp env.example .envrc
+
+# edit .envrc
+```
+
 ### Rootless Podman (optional)
 
 For rootless Podman, expose the socket so `pytest-docker` can reach it:
