@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1778506113057,
+  "lastScanned": 1779116781682,
   "projectRoot": "/home/galadriel/Documents/Cline/risus-cli",
   "techStack": {
     "languages": [
@@ -59,7 +59,7 @@
       "path": "build",
       "purpose": "Build output",
       "fileCount": 3,
-      "lastAccessed": 1778506113053,
+      "lastAccessed": 1779116781679,
       "keyFiles": [
         "README.md",
         "entitlements.plist",
@@ -70,7 +70,7 @@
       "path": "client",
       "purpose": null,
       "fileCount": 4,
-      "lastAccessed": 1778506113054,
+      "lastAccessed": 1779116781680,
       "keyFiles": [
         "__init__.py",
         "config.py",
@@ -82,7 +82,7 @@
       "path": "docker",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778506113055,
+      "lastAccessed": 1779116781680,
       "keyFiles": [
         "server.Dockerfile"
       ]
@@ -91,14 +91,14 @@
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 0,
-      "lastAccessed": 1778506113055,
+      "lastAccessed": 1779116781680,
       "keyFiles": []
     },
     "server": {
       "path": "server",
       "purpose": null,
       "fileCount": 9,
-      "lastAccessed": 1778506113055,
+      "lastAccessed": 1779116781680,
       "keyFiles": [
         "__init__.py",
         "app.py",
@@ -111,14 +111,14 @@
       "path": "specs",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1778506113055,
+      "lastAccessed": 1779116781681,
       "keyFiles": []
     },
     "tests": {
       "path": "tests",
       "purpose": "Test files",
       "fileCount": 1,
-      "lastAccessed": 1778506113056,
+      "lastAccessed": 1779116781681,
       "keyFiles": [
         "__init__.py"
       ]
@@ -126,303 +126,111 @@
   },
   "hotPaths": [
     {
+      "path": "docs/architecture/component-communication.md",
+      "accessCount": 6,
+      "lastAccessed": 1779118337802,
+      "type": "file"
+    },
+    {
+      "path": "docs/architecture/system-overview.md",
+      "accessCount": 3,
+      "lastAccessed": 1779118385782,
+      "type": "file"
+    },
+    {
+      "path": "docs/architecture/websocket-protocol.md",
+      "accessCount": 2,
+      "lastAccessed": 1779118338566,
+      "type": "file"
+    },
+    {
+      "path": "docs/architecture/interaction-flows.md",
+      "accessCount": 2,
+      "lastAccessed": 1779118339002,
+      "type": "file"
+    },
+    {
+      "path": "docs/architecture/rest-endpoints.md",
+      "accessCount": 2,
+      "lastAccessed": 1779118339321,
+      "type": "file"
+    },
+    {
+      "path": "docs/architecture/threading-model.md",
+      "accessCount": 2,
+      "lastAccessed": 1779118339409,
+      "type": "file"
+    },
+    {
       "path": "risus.py",
-      "accessCount": 56,
-      "lastAccessed": 1777916869248,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/spec.md",
-      "accessCount": 30,
-      "lastAccessed": 1777793576675,
-      "type": "file"
-    },
-    {
-      "path": "AGENTS.md",
-      "accessCount": 30,
-      "lastAccessed": 1777916704724,
-      "type": "file"
-    },
-    {
-      "path": ".specify/memory/constitution.md",
-      "accessCount": 24,
-      "lastAccessed": 1777916715339,
-      "type": "file"
-    },
-    {
-      "path": "client/ws_client.py",
-      "accessCount": 22,
-      "lastAccessed": 1777916405389,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/spec.md",
-      "accessCount": 20,
-      "lastAccessed": 1777749597169,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/research.md",
-      "accessCount": 18,
-      "lastAccessed": 1777793585167,
-      "type": "file"
-    },
-    {
-      "path": "tests/unit/test_startup.py",
-      "accessCount": 17,
-      "lastAccessed": 1777829168338,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/research.md",
-      "accessCount": 15,
-      "lastAccessed": 1777748689762,
-      "type": "file"
-    },
-    {
-      "path": "pyproject.toml",
-      "accessCount": 15,
-      "lastAccessed": 1777918559393,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/tasks.md",
-      "accessCount": 14,
-      "lastAccessed": 1777793571549,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/quickstart.md",
-      "accessCount": 14,
-      "lastAccessed": 1777870035001,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/plan.md",
-      "accessCount": 13,
-      "lastAccessed": 1777750552764,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/plan.md",
-      "accessCount": 11,
-      "lastAccessed": 1777793576461,
-      "type": "file"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "accessCount": 11,
-      "lastAccessed": 1777811756662,
-      "type": "file"
-    },
-    {
-      "path": "tests/unit/test_token_auth.py",
-      "accessCount": 11,
-      "lastAccessed": 1777829168275,
-      "type": "file"
-    },
-    {
-      "path": "CLAUDE.md",
-      "accessCount": 11,
-      "lastAccessed": 1777831479114,
-      "type": "file"
-    },
-    {
-      "path": "PLAYER.md",
-      "accessCount": 11,
-      "lastAccessed": 1777870046991,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/tasks.md",
-      "accessCount": 10,
-      "lastAccessed": 1777749596432,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/contracts/config-file.md",
-      "accessCount": 10,
-      "lastAccessed": 1777749610191,
-      "type": "file"
-    },
-    {
-      "path": "server/ws.py",
-      "accessCount": 10,
-      "lastAccessed": 1777805461916,
-      "type": "file"
-    },
-    {
-      "path": "client/config.py",
-      "accessCount": 10,
-      "lastAccessed": 1777827349702,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/data-model.md",
-      "accessCount": 9,
-      "lastAccessed": 1777748689564,
-      "type": "file"
-    },
-    {
-      "path": "README.md",
-      "accessCount": 9,
-      "lastAccessed": 1777754918429,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/data-model.md",
-      "accessCount": 9,
-      "lastAccessed": 1777793585576,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/contracts/interactive-prompt.md",
-      "accessCount": 8,
-      "lastAccessed": 1777749610999,
-      "type": "file"
-    },
-    {
-      "path": "tests/unit/test_config.py",
-      "accessCount": 8,
-      "lastAccessed": 1777805289485,
-      "type": "file"
-    },
-    {
-      "path": ".markdownlint.json",
-      "accessCount": 7,
-      "lastAccessed": 1777793394439,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/quickstart.md",
-      "accessCount": 7,
-      "lastAccessed": 1777811757100,
-      "type": "file"
-    },
-    {
-      "path": "docs/features/secure-session/concept.md",
-      "accessCount": 6,
-      "lastAccessed": 1777790692529,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/contracts/ws-token-auth.md",
-      "accessCount": 6,
-      "lastAccessed": 1777792672902,
-      "type": "file"
-    },
-    {
-      "path": "docker-compose.yml",
-      "accessCount": 6,
-      "lastAccessed": 1777805376531,
-      "type": "file"
-    },
-    {
-      "path": "docs/features/secure-session/prd.md",
-      "accessCount": 5,
-      "lastAccessed": 1777790692581,
-      "type": "file"
-    },
-    {
-      "path": "tests/unit/test_ws_protocol.py",
-      "accessCount": 5,
-      "lastAccessed": 1777794140867,
-      "type": "file"
-    },
-    {
-      "path": "tests/e2e/conftest.py",
-      "accessCount": 5,
-      "lastAccessed": 1777805289045,
-      "type": "file"
-    },
-    {
-      "path": "tests/e2e/test_token_auth.py",
-      "accessCount": 5,
-      "lastAccessed": 1777805532249,
-      "type": "file"
-    },
-    {
-      "path": ".specify/feature.json",
-      "accessCount": 5,
-      "lastAccessed": 1777830776429,
-      "type": "file"
-    },
-    {
-      "path": "specs/004-secure-session/checklists/requirements.md",
-      "accessCount": 4,
-      "lastAccessed": 1777791778635,
-      "type": "file"
-    },
-    {
-      "path": ".specify/templates/tasks-template.md",
-      "accessCount": 4,
-      "lastAccessed": 1777831528588,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/checklists/requirements.md",
-      "accessCount": 3,
-      "lastAccessed": 1777744903324,
-      "type": "file"
-    },
-    {
-      "path": ".specify/templates/spec-template.md",
-      "accessCount": 3,
-      "lastAccessed": 1777791070410,
-      "type": "file"
-    },
-    {
-      "path": "risus.cfg.example",
-      "accessCount": 3,
-      "lastAccessed": 1777827879021,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/contracts/artifact-naming.md",
-      "accessCount": 2,
-      "lastAccessed": 1777749611630,
-      "type": "file"
-    },
-    {
-      "path": "tests/e2e/test_two_clients.py",
-      "accessCount": 2,
-      "lastAccessed": 1777794263877,
-      "type": "file"
-    },
-    {
-      "path": "",
       "accessCount": 1,
-      "lastAccessed": 1776702156268,
-      "type": "directory"
-    },
-    {
-      "path": ".specify/templates/constitution-template.md",
-      "accessCount": 1,
-      "lastAccessed": 1777738982727,
-      "type": "file"
-    },
-    {
-      "path": ".specify/templates/plan-template.md",
-      "accessCount": 1,
-      "lastAccessed": 1777738988998,
-      "type": "file"
-    },
-    {
-      "path": "specs/003-standalone-client/PROMPT.md",
-      "accessCount": 1,
-      "lastAccessed": 1777749396158,
+      "lastAccessed": 1779117009705,
       "type": "file"
     },
     {
       "path": "server/app.py",
       "accessCount": 1,
-      "lastAccessed": 1777789320234,
+      "lastAccessed": 1779117009921,
       "type": "file"
     },
     {
-      "path": "tests/e2e/test_compose_up.py",
+      "path": "server/models.py",
       "accessCount": 1,
-      "lastAccessed": 1777794234408,
+      "lastAccessed": 1779117010121,
+      "type": "file"
+    },
+    {
+      "path": "server/rest.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117010238,
+      "type": "file"
+    },
+    {
+      "path": "server/ws.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117014411,
+      "type": "file"
+    },
+    {
+      "path": "client/ws_client.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117014660,
+      "type": "file"
+    },
+    {
+      "path": "server/commands.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117014859,
+      "type": "file"
+    },
+    {
+      "path": "client/state.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117015114,
+      "type": "file"
+    },
+    {
+      "path": "server/locks.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117017876,
+      "type": "file"
+    },
+    {
+      "path": "server/db.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117019947,
+      "type": "file"
+    },
+    {
+      "path": "client/config.py",
+      "accessCount": 1,
+      "lastAccessed": 1779117020034,
+      "type": "file"
+    },
+    {
+      "path": "AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1779117030188,
       "type": "file"
     }
   ],

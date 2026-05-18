@@ -21,6 +21,9 @@ instructions.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for full setup, running, and testing instructions.
 
+FINDING: Server cannot be built and started w/o installing ".[dev]" dependencies!
+FINDING: python risus.py does not work w/o installing ".[client]" dependencies!
+
 ```bash
 # Start the stack
 podman-compose up -d   # or: docker compose up -d
